@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* .wrap {
+        box-sizing: border-box;
+      } */
+      /* html {
+        box-sizing: border-box;
+      }
+      body {
+        box-sizing: inherit;
+      } */
+      /* .box1 {
+        box-sizing: border-box;
+      } */
+      .box1 {
+        width: 300px;
+        height: 50px;
+        padding: 5px;
+        border: 5px solid gray;
+        margin: 5px;
+      }
+
+      .box2 {
+        width: 300px;
+        height: 50px;
+        padding: 5px;
+        border: 5px solid gray;
+      }
+
+      span::before {
+        content: "👉";
+      }
+      span::after {
+        content: "✅";
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="box1">
+        <p>Hello everyone!</p>
+      </div>
+      <div class="box2">
+        <p>Today I will practice about box-model</p>
+      </div>
+    </div>
+
+    <span>Hello world.</span>
+  </body>
+</html>
