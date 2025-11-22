@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 600px;
+        border: 1px solid green;
+        margin-bottom: 5px;
+      }
+      .box1 {
+        max-width: 600px;
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      This element has a width of 600px, and margin set to auto. This element
+      has a width of 600px, and margin set to auto.
+    </div>
+    <div class="box1">
+      This element has a max-width of 600px, and margin set to auto. This
+      element has a max-width of 600px, and margin set to auto.
+    </div>
+    <p>
+      🔹 width - Khi bạn đặt width: 500px; thì phần tử luôn luôn có chiều rộng
+      đúng bằng 500px, bất kể kích thước màn hình hay khung chứa. - Nó cố định
+      và không co giãn (trừ khi bạn dùng đơn vị tương đối như % hoặc vw). <br />
+      🔹 max-width - Khi bạn đặt max-width: 500px;, phần tử sẽ có chiều rộng tối
+      đa là 500px. - Nếu khung chứa nhỏ hơn 500px, phần tử sẽ co lại để vừa với
+      khung chứa. - Nếu khung chứa lớn hơn 500px, phần tử sẽ không vượt quá
+      500px. - Đây là cách thường dùng để làm responsive design, vì nó cho phép
+      phần tử co giãn theo màn hình nhưng vẫn giữ giới hạn.
+    </p>
+  </body>
+</html>
